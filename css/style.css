@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Oswald:wght@200;300&family=Zen+Tokyo+Zoo&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  padding: 5rem 2rem;
+}
+
+.main-container {
+  background-color: #FDF8F5;
+}
+
+.img-wrapper {
+  padding-bottom: 40px;
+}
+
+#profileImage {
+  width: 100%;
+  height: 100%;
+  max-width: 376px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.header-text-wrapper,
+#container-title {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: light;
+  font-size: 1.5em;
+}
+
+.header-text-wrapper a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+#profileID:hover {
+  padding-bottom: 5px;
+  border-bottom: 8px solid #000;
+  border-radius: 5px;
+  background-color: #FDF8F5;
+}
+
+#profileName {
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+#container-title {
+  font-weight: bold;
+  font-size: 2.5em;
+  padding-bottom: 1rem;
+}
+
+.repo-wrapper a {
+  text-decoration: none;
+  color: #000;
+}
+
+.projectTitle {
+  font-size: 1.4em;
+}
+
+.projectDesc {
+  margin: 10px 0;
+  color: #000;
+  font-size: 1.3em;
+}
+
+.projectLang,
+.projectStars {
+  font-size: 1.3em;
+}
+
+.projectLang {
+  float: left;
+  width: 80%;
+}
+
+.projectStars {
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+
+.repo-wrapper {
+  padding: 30px 15px;
+  margin-bottom: 15px;
+}
+
+.repo-wrapper:nth-child(odd) {
+  border-left: 10px solid transparent;
+}
+
+.repo-wrapper:nth-child(odd):hover {
+  cursor: pointer;
+  border-left: 10px solid #000;
+  border-radius: 5px;
+  background-color: #FDF8F5;
+}
+
+.repo-wrapper:nth-child(even) {
+  border-right: 10px solid transparent;
+}
+
+.repo-wrapper:nth-child(even):hover {
+  cursor: pointer;
+  border-right: 10px solid #000;
+  border-radius: 5px;
+  background-color: #FDF8F5;
+}
+
+@media (min-width: 768px) {
+  .container,
+  #projects-container {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 940px;
+    padding: 5rem 2.5rem;
+  }
+
+  .img-wrapper {
+    width: 40%;
+    float: left;
+  }
+
+  .header-text-wrapper {
+    width: 60%;
+    height: 100%;
+    float: right;
+    text-align: right;
+    font-size: 1.35em;
+  }
+
+  .header-inner {
+    position: relative;
+    margin-top: 88px;
+  }
+
+  .img-wrapper {
+    padding-bottom: 0;
+  }
+
+  #profileName {
+    font-size: 4rem;
+    margin-bottom: 15px;
+  }
+
+  #projects-container {
+    max-width: 700px;
+  }
+
+  #container-title {
+    font-size: 3rem;
+  }
+
+  .repo-wrapper {
+    padding: 30px;
+    margin-bottom: 25px;
+  }
+
+  .projectTitle {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 890px) {
+  #profileName {
+    font-size: 5.2rem;
+    margin-bottom: 20px;
+  }
+
+  .header-text-wrapper {
+    font-size: 1.7em;
+  }
+}
