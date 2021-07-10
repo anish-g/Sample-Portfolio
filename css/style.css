@@ -18,13 +18,13 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #FFFFFF;
+  background-color: #FDF8F5;
 }
 
 #preloader {
   width: 100vw;
   height: 100vh;
-  background-color: #FDF8F5;
+  background-color: #F3F3F3;;
   display: block;
 }
 
@@ -40,8 +40,11 @@ body {
 }
 
 #main-container {
-  background-color: #FDF8F5;
   display: none;
+}
+
+.head-main-div {
+  background-color: #F3F3F3;
 }
 
 .img-wrapper {
@@ -75,7 +78,7 @@ body {
   padding-bottom: 5px;
   border-bottom: 8px solid #000;
   border-radius: 5px;
-  background-color: #FDF8F5;
+  background-color: #F3F3F3;;
 }
 
 #profileName {
@@ -134,7 +137,7 @@ body {
   cursor: pointer;
   border-left: 10px solid #000;
   border-radius: 5px;
-  background-color: #FDF8F5;
+  background-color: #F3F3F3;;
 }
 
 .repo-wrapper:nth-child(even) {
@@ -145,7 +148,7 @@ body {
   cursor: pointer;
   border-right: 10px solid #000;
   border-radius: 5px;
-  background-color: #FDF8F5;
+  background-color: #F3F3F3;;
 }
 
 @media (min-width: 768px) {
