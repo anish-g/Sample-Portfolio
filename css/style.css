@@ -21,12 +21,27 @@ body {
   background-color: #FFFFFF;
 }
 
+#preloader {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FDF8F5;
+  display: block;
+}
+
+#preloader img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .container {
   padding: 5rem 2rem;
 }
 
-.main-container {
+#main-container {
   background-color: #FDF8F5;
+  display: none;
 }
 
 .img-wrapper {

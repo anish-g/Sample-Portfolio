@@ -63,3 +63,8 @@ fetch('https://api.github.com/users/anish-g/repos')
   .then(function(reposData) {
     displayRepos(reposData)
   })
+
+setTimeout(function() {
+  document.getElementById('preloader').style.display = "none";
+  document.getElementById('main-container').style.display = "block";
+}, 3000);
