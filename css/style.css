@@ -131,6 +131,7 @@ body {
 
 .repo-wrapper:nth-child(odd) {
   border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
 }
 
 .repo-wrapper:nth-child(odd):hover {
@@ -142,6 +143,7 @@ body {
 
 .repo-wrapper:nth-child(even) {
   border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
 }
 
 .repo-wrapper:nth-child(even):hover {
